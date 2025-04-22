@@ -1,7 +1,4 @@
-#define AIN1 5 //Forward A
-#define AIN2 9 //Backward A
-#define BIN1 10 //Forward B
-#define BIN2 11 //Backward B
+#include <Servo.h>
 
 //-----MOTOR-----//
 
@@ -139,6 +136,25 @@ int in(uint8_t ch)
 
 void waitSW_OK(void)
 {
-  while(!digitalRead(2));
-  while(digitalRead(2));
+    while(!digitalRead(2));
+    while(digitalRead(2));
 }
+
+//-----Servo-----//
+
+// void servo(char n, signed int angle)
+// {
+//     if (n < 1 || n > 3) {
+//       return;
+//     }
+//     n -= 1; // 1 - 3 to 0 - 2
+    
+//     if (angle == -1) {
+//       myServo[n].detach();
+//     } else {
+//       if (!myServo[n].attached()) {
+//         myServo[n].attach(servo_pins[n]);
+//       }
+//       myServo[n].write(angle);
+//     }
+// }
