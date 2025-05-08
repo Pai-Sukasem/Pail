@@ -1,2 +1,3 @@
 # How to install library
-Click here ---> https://docs.google.com/document/d/1zZ03XQTYw3IK2YeNW8wl195C04voPc2tKbIdXcl93qQ/edit?usp=sharing
+For Thai click here ---> https://docs.google.com/document/d/1JoDpAhB_uVLgsmg8t9cWCfL0ynZNlCKGsRo0C7k2gYg/edit?usp=sharing
+For English clike here ---> https://docs.google.com/document/d/16H0AWQykBJC-4yrvUcRqvccZ8d46XxOsksz1qO-8BeI/edit?usp=sharing
